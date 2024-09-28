@@ -1,4 +1,33 @@
+body {
+    background: rgb(3,0,50);
+    background: linear-gradient(90deg, rgba(3,0,50,1) 0%, rgba(108,167,223,1) 49%, rgba(106,164,220,1) 51%, rgba(3,0,50,1) 100%);
+    max-width: 0 auto;
+    max-height: 0 auto;
+}
+
 .quiz {
+    display: block;
+    margin: 0 auto;
     background: yellowgreen;
-    height: 500px;
+    height: 200px;
+    width: 800px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.quiz-header {
+    text-align: center;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+.quiz-list {
+    width: 400px;
+    margin: 0 auto ;
+}
+
+.quiz-submit{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;   
 }
