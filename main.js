@@ -1,7 +1,12 @@
 const questions = [
     {
         question: "Какой язык работает в браузере?",
-        answers: ["Java", "C", "Python", "JavaScript"],
+        answers: [
+            "Java", 
+            "C", 
+            "Python", 
+            "JavaScript"
+        ],
         correct: 4
     },
     {
@@ -15,20 +20,57 @@ const questions = [
         correct: 2
     },
     {
-       question: "Что озночает HTML?",
-       answers: [
-        "Hypertext Markup Language",
-        "Hypertext Markdown Language",
-        "Hypertext Machine Language",
-        "Helicopters Terminals Motorboard Lamborginis"
+        question: "Что озночает HTML?",
+        answers: [
+            "Hypertext Markup Language",
+            "Hypertext Markdown Language",
+            "Hypertext Machine Language",
+            "Helicopters Terminals Motorboard Lamborginis"
        ],
-       correct: 1 
+        correct: 1 
     },
     {
         question: "В каком году был создан JavaScript?",
-        answers: ["1996", "1995", "1994", "все ответы не верны"],
+        answers: [
+            "1996",
+            "1995", 
+            "1994", 
+            "все ответы не верны"
+        ],
         correct: 2
+    },
+    {
+        question: "Какой движок JavaScript используется в Google Chrome?",
+        answers: [
+            "SpiderMonkey", 
+            "Nitro", 
+            "Chakra", 
+            "V8"
+        ],
+        correct: 4
+    },
+    {
+        question: "Что озночает DOM?",
+        answers: [
+            "Document Object Model", 
+            "Document Object Modal", 
+            "Document Organizer Model", 
+            "Digital Object Model"
+        ],
+        correct: 1
+    },
+    {
+        question: "Что такое IDE?",
+        answers: [
+            "International Drama Environment", 
+            "странный набор букв", 
+            "Integrated Development Environment", 
+            "International Development Environment"
+        ],
+        correct: 3
     }
+  
+ 
 ]
 
 const headerContainer = document.querySelector('#header');
